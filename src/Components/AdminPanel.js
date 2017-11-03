@@ -77,8 +77,8 @@ class AdminPanel extends Component {
       <MuiThemeProvider>
       <div style={{display: 'flex'}}>
       <div style={{flex: 3}}><h1 style={{textAlign: 'center'}}>My Clubs</h1></div>
-      <div style={{flex: 1}}><Link to="/app1"><RaisedButton style={{border: '2px solid #498fff', height: 30}} label="Add Club" backgroundColor= 'black' labelColor= 'rgb(255,255,255)'/></Link></div>
-      <div style={{flex: 1}}><Link to="/app2"><RaisedButton style={{border: '2px solid #498fff', height: 30}} label="Add Course" backgroundColor= 'black' labelColor= 'rgb(255,255,255)'/></Link></div>
+      <div style={{flex: 1}}><Link to="/app1"><RaisedButton style={{height: 30, marginTop: 31}} label="Add Club" backgroundColor= '#00D6A1' labelColor= 'rgb(255,255,255)'/></Link></div>
+      <div style={{flex: 1}}><Link to="/app2"><RaisedButton style={{height: 30, marginTop: 31}} label="Add Course" backgroundColor= '#00D6A1' labelColor= 'rgb(255,255,255)'/></Link></div>
       </div>
       <div>
         {this.state.clubs.map((club, i)=>{

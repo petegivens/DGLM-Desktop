@@ -37,7 +37,7 @@ class SignUp extends Component {
       /><br />
 
       <Link to="/admin-panel">
-      <RaisedButton onClick={ ()=>{ this.props.addNewClub(this.state.clubName), console.log('AAAAAAAAAAaa',this.props) } } label="Next" backgroundColor = 'black' labelColor='rgb(255,255,255)' style={{color: 'white'}}  />
+      <RaisedButton onClick={ ()=>{ this.props.addNewClub(this.state.clubName), console.log('AAAAAAAAAAaa',this.props) } } label="Next" backgroundColor = '#00D6A1' labelColor='rgb(255,255,255)' style={{color: 'white'}}  />
 
       </Link>
       </div>

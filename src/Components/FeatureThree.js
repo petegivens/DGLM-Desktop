@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import WOW from 'wowjs';
+import pic from "./exampleOne.png";
 
 import './ComponentStyles.css';
 import './animate.css';
@@ -16,7 +17,7 @@ export default class FeatureOne extends Component {
           <div className="wow slideInLeft"><h1 style={{textAlign: 'center', marginLeft: 55}}>Easy Management</h1></div>
         </div>
           <div style={{flex: 1}}>
-            <div className="wow slideInRight"><img alt="" src="https://www.lookout.com/uploads/images/products/personal/ios/ios-1-2-appmonitor-844x1200.png" style={{ marginTop: 20, marginBottom: 20, height:600, width: 500}}/></div>
+            <div className="wow slideInRight"><img alt="example one" src={pic} style={{ marginTop: 20, marginBottom: 20, height:700, width: 700}}/></div>
           </div>
         </div>
       </div>

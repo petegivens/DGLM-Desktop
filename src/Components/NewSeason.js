@@ -90,7 +90,7 @@ class NewSeason extends Component {
         </Link>
         </div>
            <div style={{width: "10%", marginLeft: '45%', marginRight: '45%'}}>
-            <RaisedButton label="Submit" onClick={this.handleOpen} />
+            <RaisedButton backgroundColor="#00D6A1" labelColor="white" label="Submit" onClick={this.handleOpen} />
             <Dialog
               actions={actions}
               modal={false}

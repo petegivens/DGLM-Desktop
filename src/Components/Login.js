@@ -64,7 +64,7 @@ class Login extends Component {
         <RaisedButton onClick={
           ()=>{ this.userLogin(), this.setState({attempt: true}) }
 
-         } label="Login" backgroundColor = 'black' labelColor='rgb(255,255,255)' style={{color: 'white', border: '2px solid #498fff'}}  />
+        } label="Login" backgroundColor = '#00D6A1' labelColor='rgb(255,255,255)' style={{color: 'white'}}  />
       </Link>
       </div>
       </MuiThemeProvider>

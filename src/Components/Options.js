@@ -30,7 +30,7 @@ export default class ToolbarExamplesSimple extends React.Component {
         <ToolbarGroup>
           <FontIcon className="muidocs-icon-custom-sort" />
           <ToolbarSeparator />
-          <Link to="app3"><RaisedButton style={{border: '2px solid #678fff'}} backgroundColor="black" label="New Season" labelColor="rgb(255,255,255)" /></Link>
+          <Link to="app3"><RaisedButton backgroundColor="#00D6A1" label="New Season" labelColor="rgb(255,255,255)" /></Link>
           <IconMenu
             iconButtonElement={
               <IconButton touch={true}>

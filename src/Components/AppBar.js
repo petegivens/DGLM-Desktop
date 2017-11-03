@@ -23,12 +23,12 @@ class AppBar extends Component {
     console.log('appbar', this.props)
     return (
       <MuiThemeProvider>
-      <div id='header' style={{display: 'flex', marginTop: 20, marginBottom: 20, fontFamily: 'Cizel', fontWeight: 'bold', fontSize: 20, borderBottom: '3px solid #ddd'}}>
+      <div id='header' style={{display: 'flex', marginTop: 20, fontFamily: 'Cizel', fontWeight: 'bold', fontSize: 20, borderBottom: '3px solid #ddd'}}>
         <div style={{flex: 5, marginTop: 10, marginLeft: 30, fontFamily: 'Fredoka One'}}>D.G. League Manager</div>
         <div style={{flex: .7, marginTop: 10}}><Link id="selected" to="/">Home</Link></div>
         <div className="tab-button" style={{flex: .8}}>About</div>
         <div className="tab-button" style={{flex: 1}}>Download</div>
-        <div ><Link to={ this.props.userData ? "/admin-panel" : "/Login"}><RaisedButton style={{marginBottom: 10, border: '2px solid #498fff'}} label={ this.props.userData ? "My Clubs" : "Login"} backgroundColor= 'black' labelColor= 'rgb(255,255,255)'/></Link></div>
+        <div ><Link to={ this.props.userData ? "/admin-panel" : "/Login"}><RaisedButton style={{marginBottom: 10}} label={ this.props.userData ? "My Clubs" : "Login"} backgroundColor= '#00D6A1' labelColor= 'rgb(255,255,255)'/></Link></div>
         <div style={{flex: .5, borderBottom: ''}}></div>
       </div>
       </MuiThemeProvider>

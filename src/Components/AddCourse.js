@@ -98,7 +98,7 @@ class AddCourse extends Component {
         </Link>
         </div>
        <div style={{width: "10%", marginLeft: '45%', marginRight: '45%'}}>
-              <RaisedButton label="Submit" backgroundColor="black" style={{border: '2px solid blue'}} labelColor="rgb(255,255,255)"  onClick={this.handleOpen} />
+              <RaisedButton label="Submit" backgroundColor="#00D6A1" labelColor="rgb(255,255,255)"  onClick={this.handleOpen} />
               <Dialog
                 actions={actions}
                 modal={false}
