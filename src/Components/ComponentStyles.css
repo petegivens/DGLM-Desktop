@@ -41,7 +41,9 @@
   margin: 10px 120px 0 120px;
 }
 
-
+#coming-soon {
+  font-size: 1.8em;
+}
 
 #sign-up {
     font-family: 'Saira Extra Condensed';

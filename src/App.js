@@ -8,6 +8,7 @@ import Login from './Components/Login.js';
 import AdminPanel from './Components/AdminPanel.js';
 import SeasonView from './Components/SeasonView.js';
 import store from './store.js'
+import Download from './Components/Download.js';
 import Home from './Views/Home.js';
 import { Provider } from 'react-redux';
 import {
@@ -46,6 +47,7 @@ export default class App extends Component {
             <Route path='/app1' component={SignUp} />
             <Route path='/app2' component={AddCourse} />
             <Route path='/app3' component={NewSeason} />
+            <Route path='/download' component={Download} />
             </div>
           <Footer />
           </div>
